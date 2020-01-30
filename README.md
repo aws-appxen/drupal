@@ -2,6 +2,8 @@
 
 The AppXen Drupal Stack provides a single-click install solution for Drupal, containerized on EC2 for portability. Drupal is one of the most versatile open source content management systems available, with over a thousand developers contributing to the code. Drupal is built for high performance and is horizontally scalable, has easy integration via REST, JSON, SOAP and other formats, and features a whopping 15,000 plugins to extend and customize the application for just about any type of website.
 
+https://appxen.com/app/drupal
+
 # QUICKSTART
 
 When installing drupal, when you the "Set up database" step use:
