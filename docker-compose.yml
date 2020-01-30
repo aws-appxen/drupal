@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+
+  drupal:
+    image: drupal:8-apache
+    ports:
+     - 80:80
+     - 443:80
+    volumes:
+     - /home/ubuntu/drupal/modules:/var/www/html/modules
+     - /home/ubuntu/drupal/profiles:/var/www/html/profiles
+     - /home/ubuntu/drupal/sites:/var/www/html/sites
+     - /home/ubuntu/drupal/themes:/var/www/html/themes
+    restart: always
+
+  postgres:
+    image: postgres:10
+    environment:
+      POSTGRES_PASSWORD:
+    restart: always
